@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #myCanvas {
+            /* border: solid 1px black; */
+            letter-spacing: -0.4px;
+            width: 216px;
+            height: 286px;
+        }
+        .bold {
+            font-weight: bold;
+        }
+        td {
+            border: 1px solid black;
+        }
+        table {
+            border-spacing: 0px;
+        }
+        td {
+            padding: 3px 5px;
+        }
+        .small-centered {
+            font-size: small;
+            text-align: center;
+        }
+        fieldset {
+            text-align: center;
+            margin: 20px 0;
+            max-width: 770px;
+        }
+        .Normal, .Effect, .Fusion, .SPELL, .TRAP {
+            text-align: center;
+        }
+        .Normal {
+            background-color: rgba(220, 200, 50, 0.2);
+        }
+        .Effect {
+            background-color: rgba(240, 120, 30, 0.3);
+        }
+        .Fusion {
+            background-color: rgba(200, 20, 200, 0.2);
+        }
+        .SPELL {
+            background-color: rgba(105, 232, 130, 0.657);
+        }
+        .TRAP {
+            background-color: violet;
+        }
+    </style>
+    <script src="script.js" defer></script>
+</head>
+<body>git
+    <canvas id="myCanvas">
+    </canvas>
+    <button id="fetch">Fetch</button>
+    <button id="set-filter">Set filter</button>
+    <button id="generate" disabled>Next image</button>
+    <fieldset style="display:none;">
+        <legend>Filters</legend>
+        <input type="checkbox" class="race-filter" id="check-aqua" value="Aqua"><label for="check-aqua">Aqua</label>
+        <input type="checkbox" class="race-filter" id="check-beast" value="Beast"><label for="check-beast">Beast</label>
+        <input type="checkbox" class="race-filter" id="check-beast-warrior" value="Beast-Warrior"><label for="check-beast-warrior">Beast-Warrior</label>
+        <input type="checkbox" class="race-filter" id="check-dinosaur" value="Dinosaur"><label for="check-dinosaur">Dinosaur</label>
+        <input type="checkbox" class="race-filter" id="check-dragon" value="Dragon"><label for="check-dragon">Dragon</label>
+        <input type="checkbox" class="race-filter" id="check-fairy" value="Fragon"><label for="check-fairy">Fairy</label>
+        <input type="checkbox" class="race-filter" id="check-fiend" value="Fiend"><label for="check-fiend">Fiend</label>
+        <input type="checkbox" class="race-filter" id="check-fish" value="Fish"><label for="check-fish">Fish</label>
+        <input type="checkbox" class="race-filter" id="check-insect" value="Insect"><label for="check-insect">Insect</label>
+        <input type="checkbox" class="race-filter" id="check-machine" value="Machine"><label for="check-machine">Machine</label>
+        <input type="checkbox" class="race-filter" id="check-plant" value="Plant"><label for="check-plant">Plant</label>
+        <input type="checkbox" class="race-filter" id="check-pyro" value="Pyro"><label for="check-pyro">Pyro</label>
+        <input type="checkbox" class="race-filter" id="check-reptile" value="Reptile"><label for="check-reptile">Reptile</label>
+        <input type="checkbox" class="race-filter" id="check-rock" value="Rock"><label for="check-rock">Rock</label>
+        <input type="checkbox" class="race-filter" id="check-sea serpent" value="Sea Serpent"><label for="check-sea serpent">Sea Serpent</label>
+        <input type="checkbox" class="race-filter" id="check-spellcaster" value="Spellcaster"><label for="check-spellcaster">Spellcaster</label>
+        <input type="checkbox" class="race-filter" id="check-thunder" value="Thunder"><label for="check-thunder">Thunder</label>
+        <input type="checkbox" class="race-filter" id="check-warrior" value="Warrior"><label for="check-warrior">Warrior</label>
+        <input type="checkbox" class="race-filter" id="check-winged beast" value="Winged Beast"><label for="check-winged beast">Winged Beast</label>
+        <input type="checkbox" class="race-filter" id="check-zombie" value="Zombie"><label for="check-zombie">Zombie</label>
+    </fieldset>
+    <div id="table-container"></div>
+</body>
+</html>
