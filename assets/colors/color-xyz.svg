@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="216" height="286">
+    <g id="color-effect">
+        <rect x="7" y="7" width="202" height="272" fill="rgb(40, 40, 40)" />
+        <rect x="20" y="12" width="176" height="28" fill="rgb(21, 21, 21)" rx="3" />
+        <rect x="20" y="12" width="174" height="26" fill="rgb(72, 72, 72)" rx="3" />
+        <rect x="22" y="14" width="172" height="24" fill="rgb(40, 40, 40)" rx="3" />
+        <rect x="106" y="244" width="90" height="33" fill="rgb(21, 21, 21)" rx="3" />
+        <rect x="106" y="244" width="88" height="31" fill="rgb(72, 72, 72)" rx="3" />
+        <rect x="108" y="246" width="86" height="29" fill="rgb(40, 40, 40)" rx="3" />
+    </g>
+</svg>

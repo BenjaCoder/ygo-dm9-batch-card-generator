@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="216" height="286">
+    <!--
+    <rect x="63" y="246" width="33" height="29" fill="#a2a" />
+    <rect x="63" y="246" width="31" height="27" fill="#f6f" />
+    <rect x="65" y="248" width="29" height="25" fill="#c4c" />
+    -->
+    <rect x="63" y="246" width="33" height="29" fill="rgb(131, 32, 97)" />
+    <rect x="63" y="246" width="31" height="27" fill="rgb(247, 33, 247)" />
+    <rect x="65" y="248" width="29" height="25" fill="rgb(189, 0, 156)" />
+    <text x="66.5" y="265" fill="white" font-size="15" font-family="Arial">Fnd</text>
+</svg>
