@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="216" height="286">
+    <g id="trap">
+            <rect x="30" y="246" width="66" height="29" fill="rgb(0, 16, 99)" />
+            <rect x="30" y="246" width="64" height="27" fill="rgb(99, 123, 247)" />
+            <rect x="32" y="248" width="62" height="25" fill="rgb(0, 25, 165)" />
+            <text x="41" y="266" fill="white" font-size="15" font-family="Arial"
+                letter-spacing="1">TRAP</text>
+    </g>
+</svg>

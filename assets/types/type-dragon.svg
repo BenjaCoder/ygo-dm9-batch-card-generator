@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="216" height="286">
+    <!--
+    <rect x="30" y="246" width="33" height="29" fill="rgb(230, 32, 82)" />
+    <rect x="30" y="246" width="31" height="27" fill="rgb(255, 173, 230)" />
+    <rect x="32" y="248" width="29" height="25" fill="rgb(255, 90, 181)" />
+    -->
+    <rect x="30" y="246" width="33" height="29" fill="#b11" />
+    <rect x="30" y="246" width="31" height="27" fill="#f55" />
+    <rect x="32" y="248" width="29" height="25" fill="#d33" />
+    <text x="34.5" y="265" fill="white" font-size="15" font-family="Arial">Drg</text>
+</svg>

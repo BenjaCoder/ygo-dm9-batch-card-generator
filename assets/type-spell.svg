@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="216" height="286">
+    <g id="type-spell">
+            <rect x="30" y="246" width="66" height="29" fill="rgb(40, 32, 73)" />
+            <rect x="30" y="246" width="64" height="27" fill="rgb(197, 16, 255)" />
+            <rect x="32" y="248" width="62" height="25" fill="rgb(132, 0, 132)" />
+            <text x="37.5" y="266" fill="white" font-size="15" font-family="Arial"
+                letter-spacing="1">SPELL</text>
+    </g>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="216" height="286">
+    <rect x="30" y="246" width="33" height="29" fill="rgb(68, 142, 122)" />
+    <rect x="30" y="246" width="31" height="27" fill="rgb(164, 238, 218)" />
+    <rect x="32" y="248" width="29" height="25" fill="rgb(116, 190, 170)" />
+    <text x="33.1" y="265" fill="white" font-size="15" font-family="Arial">Wyr</text>
+</svg>
