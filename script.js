@@ -156,7 +156,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const link = document.createElement("a");
         link.href = dataURL;
     
-        link.download = `${card.id}.png`;
+        link.download = `${card.id}.${card.id >= 100000 ? 'jpb' : 'png'}`;
     
         link.click();
     }
@@ -221,6 +221,10 @@ document.addEventListener("DOMContentLoaded", () => {
                                 .map(card => Array.from(document.getElementsByClassName('card-check')).find(checkBox => checkBox.id == `checkbox-${card.id}`))
         console.log(boxesToCheck)
         boxesToCheck.forEach(box => box.checked = toggle)
+    }
+
+    function filterByIdRange(start, end) {
+        
     }
 
 });
