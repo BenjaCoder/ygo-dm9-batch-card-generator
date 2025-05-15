@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function convertTSVtoObjects(tsvData) {
         const rows = tsvData.split('\n').map(row => row.split('\t'));
 
-        for (let i = 1; i < rows.length; i++) {
+        for (let i = 1; i < 500; i++) {
             const row = rows[i];
             cardData.push(
                 {
